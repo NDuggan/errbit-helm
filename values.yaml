@@ -4,7 +4,7 @@
 revisionHistoryLimit: 2
 replicaCount: 1
 image:
-  repository: nduggan/errbit-helm
+  repository: https://github.com/nduggan/errbit-helm
   tag: latest
   pullPolicy: Always
 service:
