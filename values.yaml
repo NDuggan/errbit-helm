@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 revisionHistoryLimit: 2
 replicaCount: 1
-image:
-  repository: https://github.com/nduggan/errbit-helm
-  tag: latest
-  pullPolicy: Always
+# image:
+#   repository: https://github.com/nduggan/errbit-helm
+#   tag: latest
+#   pullPolicy: Always
 service:
   name: http
   type: ClusterIP
